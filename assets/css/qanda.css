@@ -1,0 +1,57 @@
+<style>
+    #best a {
+      color : black;
+      text-decoration : none;
+    }
+
+    body {
+    padding: 10px;
+
+    }
+    #exTab1 {
+        width: 100%;
+    }
+    #exTab1 .tab-content {
+        color: black;
+        padding: 5px 15px;
+    }
+
+    #exTab1 .nav-tabs>li {
+        display: inline-block;
+    }
+
+    #exTab1 .nav-tabs {
+        text-align: center;
+        padding: 5px 0 10px 0;
+    }
+    #exTab1 .nav-tabs>li>a {
+        border-radius: 0;
+        color: black;
+        align-self: center;
+        padding: 10px 10px 10px 10px;
+    }
+
+    #exTab1 h3 {
+        color : black;
+        background-color: white;
+        padding : 5px 15px;
+    }
+    #exTab1 >.tab-content>.tab-pane{
+        text-align: center;
+    }
+    #exTab1 >.tab-content>.tab-pane>#notepad{
+        display: inline-block;
+        resize: none;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+        color: purple;
+        cursor: default;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-bottom: 3px solid purple;
+        font-weight: "bold";
+    }
+    /* change border radius for the tab , apply corners on top*/
+  </style>

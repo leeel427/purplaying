@@ -1,0 +1,24 @@
+.inquiry-title{
+    border: 1px solid black;
+    height: max-content;
+}
+.inquiry-content-detail{
+    margin-top: 40px;
+    border: 1px solid black;
+    height: 250px;
+    text-align: center;
+}
+  .inquiry-notepad{
+    resize: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.cancel-btn{
+    width: 100px;
+    height: 40px;
+} 
+.upload-btn{
+    width: 100px;
+    height: 40px;
+} 
